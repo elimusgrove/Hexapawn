@@ -1,11 +1,24 @@
- _   _                                           
-| | | |                                          
-| |_| | _____  ____ _ _ __   __ ___      ___ __  
-|  _  |/ _ \ \/ / _` | '_ \ / _` \ \ /\ / / '_ \ 
-| | | |  __/>  < (_| | |_) | (_| |\ V  V /| | | |
-\_| |_/\___/_/\_\__,_| .__/ \__,_| \_/\_/ |_| |_|
-                     | |                         
-                     |_|                         
-The 3*3 self-learning mini-chess game Hexapawn.
+<h1>Hexapawn</h1>
+<p>The 3*3 self-learning mini-chess game <strong>Hexapawn</strong>.</p>
 
-Text art: http://patorjk.com/software/taag
+<h2>Rules</h2>
+<ul>
+	<li>Pieces can be moved forward, or diagonally to attack an opposing pawn.</li>
+	<li>
+			Win conditions:<ul>
+				<li>A pawn reaches opponent's starting row</li>
+				<li>Opponent has no pawns remaining</li>
+				<li>Opponent left with no moves remaining</li>
+			</ul>
+		</li>
+	</ul>
+	
+<h2>Learning "Modes":</h2><br>
+<ul>
+	<li>Random moves (no learning)</li>
+ <li>Hard-coded possible moves at each gameboard position, likelihood of move selection modified as games are played,</li>
+	<li>Computer identified good moves and increases probability to execute those moves again</li>
+</ul>
+
+Text art: http://patorjk.com/software/taag <br>
+Idea source: http://cs.williams.edu/~freund/cs136-073/GardnerHexapawn.pdf
