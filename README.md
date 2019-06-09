@@ -5,18 +5,19 @@
 <ul>
 	<li>Pieces can be moved forward, or diagonally to attack an opposing pawn.</li>
 	<li>
-			Win conditions:<ul>
+			Win conditions:
+			<ul>
 				<li>A pawn reaches opponent's starting row</li>
 				<li>Opponent has no pawns remaining</li>
 				<li>Opponent left with no moves remaining</li>
 			</ul>
-		</li>
-	</ul>
+	</li>
+</ul>
 	
-<h2>Learning "Modes":</h2><br>
+<h2>Game Modes:</h2>
 <ul>
 	<li>Random moves (no learning)</li>
- <li>Hard-coded possible moves at each gameboard position, likelihood of move selection modified as games are played,</li>
+ 	<li>Hard-coded possible moves at each gameboard position, likelihood of move selection modified as games are played,</li>
 	<li>Computer identified good moves and increases probability to execute those moves again</li>
 </ul>
 
