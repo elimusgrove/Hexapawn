@@ -1,7 +1,7 @@
 <h1>Hexapawn</h1>
 <p>The 3*3 self-learning mini-chess game <strong>Hexapawn</strong>.</p>
 
-<h2>Rules</h2>
+<h2>Rules:</h2>
 <ul>
 	<li>Pieces can be moved forward, or diagonally to attack an opposing pawn.</li>
 	<li>
