@@ -18,7 +18,7 @@
 <ul>
 	<li>Random moves (no learning)</li>
  	<li>Hard-coded possible moves at each gameboard position, likelihood of move selection modified as games are played,</li>
-	<li>Computer identified good moves and increases probability to execute those moves again</li>
+	<li>Computer identified bad moves and decreased probability to execute those moves again</li>
 </ul>
 
 Text art: http://patorjk.com/software/taag <br>
